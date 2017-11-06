@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400);
+
+body {
+    background-color: rgb(16, 18, 23);
+    color: rgb(200, 228, 255);
+    font-family: Lato, sans-serif;
+    text-align: center;
+}
+
+#noise>div {
+    margin: 20px;
+    display: inline-block;
+}
+
+canvas {
+    border: 1px solid #202227;
+    margin: auto;
+}
+
+p {
+    color: rgb(198, 222, 255);
+    background: rgba(211, 255, 247, 0.1);
+    margin: 5px 0 0;
+    padding: 10px;
+    min-height: 1em;
+}
+
+h1 {
+    font-size: 40px;
+}
