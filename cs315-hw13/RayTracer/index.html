@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Ray Tracer</title>
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/three.min.js"></script>
+    <script type="text/javascript" src="../../js/utils.js"></script>
+    <script type="text/javascript" src="raytracer.js"></script>
+</head>
+
+<body style="font-family: serif;">
+    <div class="canvas">
+        <canvas id="canvas" width="512" height="512" style="border: 1px solid black">
+            <p>If you see this, your browser doesn't support HTML5 canvas elements!</p>
+        </canvas>
+    </div>
+    <div>
+        <p>Scene: <code>assets/</code> <input type="text" id="scene_file_input"> <code>.json</code></p>
+        <button id="load_scene_button">Load Scene</button>
+    </div>
+    <div>
+        <p id="log"></p>
+    </div>
+</body>
+
+</html>
