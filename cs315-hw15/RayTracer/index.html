@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Ray Tracer</title>
+    <script type="text/javascript" src="../../js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="../../js/three.min.js"></script>
+    <script type="text/javascript" src="../../js/utils.js"></script>
+    <script type="text/javascript" src="raytracer.js"></script>
+</head>
+
+<body style="font-family: serif;">
+    <div class="canvas" style="width: 650px; float: left;">
+        <canvas id="canvas" width="640" height="640" style="border: 1px solid black;">
+            <p>If you see this, your browser doesn't support HTML5 canvas elements!</p>
+        </canvas>
+    </div>
+    <div style="float: left;">
+        <p>Scene: <code>assets/</code> <input type="text" id="scene_file_input"> <code>.json</code></p>
+        <button id="load_scene_button">Load Scene</button>
+        <button id="reload_scene_button">Reload Scene</button>
+    <hr>
+        <button id="triangle_button">Triangle Test</button>
+        <button id="sphere_button">Sphere Test</button>
+        <br>
+        <button id="triangle_shading_button">Triangle Shading Test</button>
+        <button id="sphere_shading_1_button">Sphere Shading Test 1</button>
+        <button id="sphere_shading_2_button">Sphere Shading Test 2</button>
+        <br>
+        <button id="shadow_1_button">Shadow Test 1</button>
+        <button id="shadow_2_button">Shadow Test 2</button>
+        <button id="cornell_button">Cornell Box</button>
+    <hr>
+        <p>Antialiasing detail level: <input type="text" id="antialiasing_level_input"></p>
+        <p>Penumbra detail level: <input type="text" id="penumbra_level_input"></p>
+        <!-- <p>Depth of field: <input type="text" id="depth_of_field_input"></p> -->
+        <button id="load_antialiasing_level">Set Antialiasing</button>
+        <button id="load_penumbra_level">Set Penumbra</button>
+        <!-- <button id="load_depth_of_field">Set Depth</button> -->
+        <hr>
+        <p id="log"></p>
+    </div>
+</body>
+
+</html>
