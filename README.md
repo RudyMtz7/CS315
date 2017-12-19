@@ -1,6 +1,5 @@
 # Computer Graphics
-## CS315
-by Jahrme risner
+by Jahrme Risner
 
 ### Labs
 - [Lab 2](cs315-lab2/README.txt)
