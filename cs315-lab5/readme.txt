@@ -1,2 +1,0 @@
-Jahrme Risner
-Tina Chapman
