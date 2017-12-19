@@ -1,6 +1,7 @@
 "use strict";
 var camera, renderer, gui;
 var objects;
+var params;
 var clock = new THREE.Clock();
 var scene = new THREE.Scene();
 var intersection = new THREE.Vector3(),
